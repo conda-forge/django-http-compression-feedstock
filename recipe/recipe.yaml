@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-http-compression
-  version: "1.3.0"
+  version: "1.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_http_compression-${{ version }}.tar.gz
-  sha256: 69494155ba2b3fb491560fc945a9a0043782ea71d412fd351f7055d5acf98395
+  sha256: 6201c8908917b5ccbd4eb46a0f12840413e869c66ba9a7a38988b99ad9854ba0
 
 build:
   number: 0
